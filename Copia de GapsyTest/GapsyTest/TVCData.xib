@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="185" id="KGk-i7-Jjw" customClass="TVCData" customModule="GapsyTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="401" height="185"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="401" height="184.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YY0-GZ-S3E">
+                        <rect key="frame" x="229" y="19" width="160" height="106"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="160" id="kYr-yl-nJZ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Precio" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IbB-vt-3Hz">
+                        <rect key="frame" x="229" y="145" width="160" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="160" id="8ee-Nq-ryU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Título" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LWI-F2-qG5">
+                        <rect key="frame" x="8" y="19" width="213" height="146.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="IbB-vt-3Hz" secondAttribute="bottom" constant="8" id="DQj-0I-FGk"/>
+                    <constraint firstItem="IbB-vt-3Hz" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" constant="8" id="DdK-XZ-00j"/>
+                    <constraint firstItem="YY0-GZ-S3E" firstAttribute="leading" secondItem="LWI-F2-qG5" secondAttribute="trailing" constant="8" id="DuB-dj-5Qn"/>
+                    <constraint firstItem="IbB-vt-3Hz" firstAttribute="top" secondItem="YY0-GZ-S3E" secondAttribute="bottom" constant="20" id="Ezu-ZS-qLy"/>
+                    <constraint firstItem="YY0-GZ-S3E" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" constant="8" id="NoN-D5-aks"/>
+                    <constraint firstAttribute="bottom" secondItem="LWI-F2-qG5" secondAttribute="bottom" constant="19" id="P3d-iG-dms"/>
+                    <constraint firstItem="YY0-GZ-S3E" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="8" id="Ve0-ey-19b"/>
+                    <constraint firstItem="LWI-F2-qG5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="fqY-xX-mVb"/>
+                    <constraint firstItem="LWI-F2-qG5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="19" id="lhh-97-JcR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="Titulo" destination="LWI-F2-qG5" id="fxw-At-Lnu"/>
+                <outlet property="img" destination="YY0-GZ-S3E" id="duC-14-6N4"/>
+                <outlet property="lblPrecio" destination="IbB-vt-3Hz" id="Z10-NO-I7Z"/>
+            </connections>
+            <point key="canvasLocation" x="202.40000000000001" y="139.880059970015"/>
+        </tableViewCell>
+    </objects>
+</document>

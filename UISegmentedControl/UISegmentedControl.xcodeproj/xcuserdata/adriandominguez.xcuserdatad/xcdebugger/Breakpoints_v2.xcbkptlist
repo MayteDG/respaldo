@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UISegmentedControl/ViewController.swift"
+            timestampString = "559794321.870492"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UISegmentedControl.ViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; UISegmentedControl.ViewController"
+                  moduleName = "UISegmentedControl"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adriandominguez/Documents/Documents/Mdg/UISegmentedControl/UISegmentedControl/ViewController.swift"
+                  timestampString = "559675539.1328861"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UISegmentedControl.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; UISegmentedControl.ViewController"
+                  moduleName = "UISegmentedControl"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adriandominguez/Documents/Documents/Mdg/UISegmentedControl/UISegmentedControl/ViewController.swift"
+                  timestampString = "559675539.136448"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UISegmentedControl.ViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;UISegmentedControl.ViewController&gt;"
+                  moduleName = "UISegmentedControl"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adriandominguez/Documents/Documents/Mdg/UISegmentedControl/UISegmentedControl/ViewController.swift"
+                  timestampString = "559675539.139677"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UISegmentedControl.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;UISegmentedControl.ViewController&gt;"
+                  moduleName = "UISegmentedControl"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adriandominguez/Documents/Documents/Mdg/UISegmentedControl/UISegmentedControl/ViewController.swift"
+                  timestampString = "559675539.1424969"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UISegmentedControl.ViewController.__deallocating_deinit"
+                  moduleName = "UISegmentedControl"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adriandominguez/Documents/Documents/Mdg/UISegmentedControl/UISegmentedControl/ViewController.swift"
+                  timestampString = "559675539.149444"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UISegmentedControl/ViewController.swift"
+            timestampString = "559794321.870981"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "204"
+            endingLineNumber = "204"
+            landmarkName = "filterTableView(ind:text:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UISegmentedControl/ViewController.swift"
+            timestampString = "559794321.8713109"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UISegmentedControl/VCRestaurantes.swift"
+            timestampString = "561581008.405795"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "VCRestaurantes"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UISegmentedControl.VCRestaurantes.empresasfilter.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "UISegmentedControl"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adriandominguez/Documents/Documents/Mdg/UISegmentedControl/UISegmentedControl/VCRestaurantes.swift"
+                  timestampString = "560799518.863095"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UISegmentedControl.VCRestaurantes.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; UISegmentedControl.VCRestaurantes"
+                  moduleName = "UISegmentedControl"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adriandominguez/Documents/Documents/Mdg/UISegmentedControl/UISegmentedControl/VCRestaurantes.swift"
+                  timestampString = "560799518.866293"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "963">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UISegmentedControl.VCRestaurantes.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;UISegmentedControl.VCRestaurantes&gt;"
+                  moduleName = "UISegmentedControl"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adriandominguez/Documents/Documents/Mdg/UISegmentedControl/UISegmentedControl/VCRestaurantes.swift"
+                  timestampString = "560799518.86936"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "928">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UISegmentedControl/VCAllServices.swift"
+            timestampString = "562185891.339329"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "Clickselection(selection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

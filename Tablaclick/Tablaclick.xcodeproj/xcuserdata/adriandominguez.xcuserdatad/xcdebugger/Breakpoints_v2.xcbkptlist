@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tablaclick/AppDelegate.swift"
+            timestampString = "555793062.774655"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tablaclick.AppDelegate.__deallocating_deinit"
+                  moduleName = "Tablaclick"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adriandominguez/Documents/Mdg/Tablaclick/Tablaclick/AppDelegate.swift"
+                  timestampString = "555793062.787344"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tablaclick.AppDelegate.__allocating_init() -&gt; Tablaclick.AppDelegate"
+                  moduleName = "Tablaclick"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adriandominguez/Documents/Mdg/Tablaclick/Tablaclick/AppDelegate.swift"
+                  timestampString = "555793062.791535"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tablaclick.AppDelegate.init() -&gt; Tablaclick.AppDelegate"
+                  moduleName = "Tablaclick"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adriandominguez/Documents/Mdg/Tablaclick/Tablaclick/AppDelegate.swift"
+                  timestampString = "555793062.7955509"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Tablaclick"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adriandominguez/Documents/Mdg/Tablaclick/Tablaclick/AppDelegate.swift"
+                  timestampString = "555793062.799527"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

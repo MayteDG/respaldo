@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF2430DB21629535001CA7F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2430DA21629535001CA7F9 /* AppDelegate.swift */; };
+		BF2430DD21629535001CA7F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2430DC21629535001CA7F9 /* ViewController.swift */; };
+		BF2430E021629535001CA7F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2430DE21629535001CA7F9 /* Main.storyboard */; };
+		BF2430E321629535001CA7F9 /* GapsyTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF2430E121629535001CA7F9 /* GapsyTest.xcdatamodeld */; };
+		BF2430E521629537001CA7F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2430E421629537001CA7F9 /* Assets.xcassets */; };
+		BF2430E821629537001CA7F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2430E621629537001CA7F9 /* LaunchScreen.storyboard */; };
+		BF2430F321629537001CA7F9 /* GapsyTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2430F221629537001CA7F9 /* GapsyTestTests.swift */; };
+		BF2430FE21629537001CA7F9 /* GapsyTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2430FD21629537001CA7F9 /* GapsyTestUITests.swift */; };
+		BF24310C21629549001CA7F9 /* Modelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF24310B21629549001CA7F9 /* Modelo.swift */; };
+		BF24310F2162DE6A001CA7F9 /* TVCData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF24310D2162DE6A001CA7F9 /* TVCData.swift */; };
+		BF2431102162DE6A001CA7F9 /* TVCData.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF24310E2162DE6A001CA7F9 /* TVCData.xib */; };
+		BFE6ED9A2163E5910042FA74 /* TVCOpciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE6ED982163E5910042FA74 /* TVCOpciones.swift */; };
+		BFE6ED9B2163E5910042FA74 /* TVCOpciones.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFE6ED992163E5910042FA74 /* TVCOpciones.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF2430EF21629537001CA7F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF2430CF21629535001CA7F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF2430D621629535001CA7F9;
+			remoteInfo = GapsyTest;
+		};
+		BF2430FA21629537001CA7F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF2430CF21629535001CA7F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF2430D621629535001CA7F9;
+			remoteInfo = GapsyTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF2430D721629535001CA7F9 /* GapsyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GapsyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2430DA21629535001CA7F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF2430DC21629535001CA7F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF2430DF21629535001CA7F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF2430E221629535001CA7F9 /* GapsyTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GapsyTest.xcdatamodel; sourceTree = "<group>"; };
+		BF2430E421629537001CA7F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF2430E721629537001CA7F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF2430E921629537001CA7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2430EE21629537001CA7F9 /* GapsyTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GapsyTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2430F221629537001CA7F9 /* GapsyTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GapsyTestTests.swift; sourceTree = "<group>"; };
+		BF2430F421629537001CA7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2430F921629537001CA7F9 /* GapsyTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GapsyTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2430FD21629537001CA7F9 /* GapsyTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GapsyTestUITests.swift; sourceTree = "<group>"; };
+		BF2430FF21629537001CA7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF24310B21629549001CA7F9 /* Modelo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo.swift; sourceTree = "<group>"; };
+		BF24310D2162DE6A001CA7F9 /* TVCData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCData.swift; sourceTree = "<group>"; };
+		BF24310E2162DE6A001CA7F9 /* TVCData.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TVCData.xib; sourceTree = "<group>"; };
+		BFE6ED982163E5910042FA74 /* TVCOpciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCOpciones.swift; sourceTree = "<group>"; };
+		BFE6ED992163E5910042FA74 /* TVCOpciones.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TVCOpciones.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF2430D421629535001CA7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2430EB21629537001CA7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2430F621629537001CA7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF2430CE21629535001CA7F9 = {
+			isa = PBXGroup;
+			children = (
+				BF24310B21629549001CA7F9 /* Modelo.swift */,
+				BF2430D921629535001CA7F9 /* GapsyTest */,
+				BF2430F121629537001CA7F9 /* GapsyTestTests */,
+				BF2430FC21629537001CA7F9 /* GapsyTestUITests */,
+				BF2430D821629535001CA7F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF2430D821629535001CA7F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF2430D721629535001CA7F9 /* GapsyTest.app */,
+				BF2430EE21629537001CA7F9 /* GapsyTestTests.xctest */,
+				BF2430F921629537001CA7F9 /* GapsyTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF2430D921629535001CA7F9 /* GapsyTest */ = {
+			isa = PBXGroup;
+			children = (
+				BF2430DA21629535001CA7F9 /* AppDelegate.swift */,
+				BF2430DC21629535001CA7F9 /* ViewController.swift */,
+				BF2430DE21629535001CA7F9 /* Main.storyboard */,
+				BFE6ED982163E5910042FA74 /* TVCOpciones.swift */,
+				BFE6ED992163E5910042FA74 /* TVCOpciones.xib */,
+				BF24310D2162DE6A001CA7F9 /* TVCData.swift */,
+				BF24310E2162DE6A001CA7F9 /* TVCData.xib */,
+				BF2430E421629537001CA7F9 /* Assets.xcassets */,
+				BF2430E621629537001CA7F9 /* LaunchScreen.storyboard */,
+				BF2430E921629537001CA7F9 /* Info.plist */,
+				BF2430E121629535001CA7F9 /* GapsyTest.xcdatamodeld */,
+			);
+			path = GapsyTest;
+			sourceTree = "<group>";
+		};
+		BF2430F121629537001CA7F9 /* GapsyTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF2430F221629537001CA7F9 /* GapsyTestTests.swift */,
+				BF2430F421629537001CA7F9 /* Info.plist */,
+			);
+			path = GapsyTestTests;
+			sourceTree = "<group>";
+		};
+		BF2430FC21629537001CA7F9 /* GapsyTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF2430FD21629537001CA7F9 /* GapsyTestUITests.swift */,
+				BF2430FF21629537001CA7F9 /* Info.plist */,
+			);
+			path = GapsyTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF2430D621629535001CA7F9 /* GapsyTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF24310221629537001CA7F9 /* Build configuration list for PBXNativeTarget "GapsyTest" */;
+			buildPhases = (
+				BF2430D321629535001CA7F9 /* Sources */,
+				BF2430D421629535001CA7F9 /* Frameworks */,
+				BF2430D521629535001CA7F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GapsyTest;
+			productName = GapsyTest;
+			productReference = BF2430D721629535001CA7F9 /* GapsyTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF2430ED21629537001CA7F9 /* GapsyTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF24310521629537001CA7F9 /* Build configuration list for PBXNativeTarget "GapsyTestTests" */;
+			buildPhases = (
+				BF2430EA21629537001CA7F9 /* Sources */,
+				BF2430EB21629537001CA7F9 /* Frameworks */,
+				BF2430EC21629537001CA7F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF2430F021629537001CA7F9 /* PBXTargetDependency */,
+			);
+			name = GapsyTestTests;
+			productName = GapsyTestTests;
+			productReference = BF2430EE21629537001CA7F9 /* GapsyTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF2430F821629537001CA7F9 /* GapsyTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF24310821629537001CA7F9 /* Build configuration list for PBXNativeTarget "GapsyTestUITests" */;
+			buildPhases = (
+				BF2430F521629537001CA7F9 /* Sources */,
+				BF2430F621629537001CA7F9 /* Frameworks */,
+				BF2430F721629537001CA7F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF2430FB21629537001CA7F9 /* PBXTargetDependency */,
+			);
+			name = GapsyTestUITests;
+			productName = GapsyTestUITests;
+			productReference = BF2430F921629537001CA7F9 /* GapsyTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF2430CF21629535001CA7F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Adrian Pascual Dominguez";
+				TargetAttributes = {
+					BF2430D621629535001CA7F9 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					BF2430ED21629537001CA7F9 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = BF2430D621629535001CA7F9;
+					};
+					BF2430F821629537001CA7F9 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = BF2430D621629535001CA7F9;
+					};
+				};
+			};
+			buildConfigurationList = BF2430D221629535001CA7F9 /* Build configuration list for PBXProject "GapsyTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF2430CE21629535001CA7F9;
+			productRefGroup = BF2430D821629535001CA7F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF2430D621629535001CA7F9 /* GapsyTest */,
+				BF2430ED21629537001CA7F9 /* GapsyTestTests */,
+				BF2430F821629537001CA7F9 /* GapsyTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF2430D521629535001CA7F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2430E821629537001CA7F9 /* LaunchScreen.storyboard in Resources */,
+				BFE6ED9B2163E5910042FA74 /* TVCOpciones.xib in Resources */,
+				BF2430E521629537001CA7F9 /* Assets.xcassets in Resources */,
+				BF2430E021629535001CA7F9 /* Main.storyboard in Resources */,
+				BF2431102162DE6A001CA7F9 /* TVCData.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2430EC21629537001CA7F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2430F721629537001CA7F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF2430D321629535001CA7F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2430DD21629535001CA7F9 /* ViewController.swift in Sources */,
+				BFE6ED9A2163E5910042FA74 /* TVCOpciones.swift in Sources */,
+				BF2430E321629535001CA7F9 /* GapsyTest.xcdatamodeld in Sources */,
+				BF24310F2162DE6A001CA7F9 /* TVCData.swift in Sources */,
+				BF2430DB21629535001CA7F9 /* AppDelegate.swift in Sources */,
+				BF24310C21629549001CA7F9 /* Modelo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2430EA21629537001CA7F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2430F321629537001CA7F9 /* GapsyTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2430F521629537001CA7F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2430FE21629537001CA7F9 /* GapsyTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF2430F021629537001CA7F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF2430D621629535001CA7F9 /* GapsyTest */;
+			targetProxy = BF2430EF21629537001CA7F9 /* PBXContainerItemProxy */;
+		};
+		BF2430FB21629537001CA7F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF2430D621629535001CA7F9 /* GapsyTest */;
+			targetProxy = BF2430FA21629537001CA7F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF2430DE21629535001CA7F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF2430DF21629535001CA7F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF2430E621629537001CA7F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF2430E721629537001CA7F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF24310021629537001CA7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF24310121629537001CA7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF24310321629537001CA7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6NT6FDC5U;
+				INFOPLIST_FILE = GapsyTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Adriandgzg.GapsyTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF24310421629537001CA7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6NT6FDC5U;
+				INFOPLIST_FILE = GapsyTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Adriandgzg.GapsyTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF24310621629537001CA7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6NT6FDC5U;
+				INFOPLIST_FILE = GapsyTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Adriandgzg.GapsyTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GapsyTest.app/GapsyTest";
+			};
+			name = Debug;
+		};
+		BF24310721629537001CA7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6NT6FDC5U;
+				INFOPLIST_FILE = GapsyTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Adriandgzg.GapsyTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GapsyTest.app/GapsyTest";
+			};
+			name = Release;
+		};
+		BF24310921629537001CA7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6NT6FDC5U;
+				INFOPLIST_FILE = GapsyTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Adriandgzg.GapsyTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GapsyTest;
+			};
+			name = Debug;
+		};
+		BF24310A21629537001CA7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6NT6FDC5U;
+				INFOPLIST_FILE = GapsyTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Adriandgzg.GapsyTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GapsyTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF2430D221629535001CA7F9 /* Build configuration list for PBXProject "GapsyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF24310021629537001CA7F9 /* Debug */,
+				BF24310121629537001CA7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF24310221629537001CA7F9 /* Build configuration list for PBXNativeTarget "GapsyTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF24310321629537001CA7F9 /* Debug */,
+				BF24310421629537001CA7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF24310521629537001CA7F9 /* Build configuration list for PBXNativeTarget "GapsyTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF24310621629537001CA7F9 /* Debug */,
+				BF24310721629537001CA7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF24310821629537001CA7F9 /* Build configuration list for PBXNativeTarget "GapsyTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF24310921629537001CA7F9 /* Debug */,
+				BF24310A21629537001CA7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF2430E121629535001CA7F9 /* GapsyTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF2430E221629535001CA7F9 /* GapsyTest.xcdatamodel */,
+			);
+			currentVersion = BF2430E221629535001CA7F9 /* GapsyTest.xcdatamodel */;
+			path = GapsyTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF2430CF21629535001CA7F9 /* Project object */;
+}
